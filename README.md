@@ -1,5 +1,5 @@
 Tohle je muj tutorialovy projekt na první kroky do reactu.<br>
-Základní devstack byl vzatý z níže přiloženého zdroje
+Základní devstack byl vzatý z níže přiloženého zdroje.
 
 -----------------------------------------------------------
 
