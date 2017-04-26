@@ -1,0 +1,49 @@
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    animation: App-logo-spin infinite 10s ease-in-out;
+    height: 80px;
+}
+
+.App-header {
+    background-color: #222;
+    height: 150px;
+    padding: 20px;
+    color: white;
+}
+
+.App-intro {
+    font-size: large;
+}
+
+@keyframes App-logo-spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+fieldset{
+    margin:40px;
+
+}
+fieldset legend{
+    font-weight:bold;
+    color:blue;
+}
+.cornerLogin{
+    background-color: red;
+    width: 200Px;
+    height: 100px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.m{margin: 10px;}
+.m2{
+    margin: 15px;
+}
+form{
+    border:1px dashed gray;
+    padding: 15px;
+}
