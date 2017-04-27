@@ -1,6 +1,7 @@
 import React from 'react';
 import MujForm from './MujForm';
 import Calculator from './Calculator';
+import SignUpDialog, {WelcomeDialog, Dialog} from './Dialog';
 
 export default class Moje extends React.Component {
     constructor(props) {
@@ -41,6 +42,9 @@ export default class Moje extends React.Component {
         if(this.generate == 'teplokalkulacka'){
             additionalContent = <div className="m2"><Calculator /></div>;
         }
+        if(this.generate == 'dialog'){
+            additionalContent = <div className="m2"><SignUpDialog/></div>;
+        }
         return <fieldset>
             <legend>Moje komponenta {this.props.name}</legend>
             tady je její obsah:<br/>
@@ -58,7 +62,10 @@ export function MojeSet() {
                 <Moje name="Sněh" content="Sněh rocks!" generate="formular"/>
                 <Moje name="Snehuálk" content="Sněhulák je master" generate="cisla"/>
                 <Moje name="Snowman" content="Snowman is the best man!" generate="teplokalkulacka"/>
+                <Moje name="Snowman" content="Snowman is the best man!" generate="dialog"/>
             </div>
             );
 }
+
+
 

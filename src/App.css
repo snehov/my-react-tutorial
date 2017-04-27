@@ -47,3 +47,6 @@ form{
     border:1px dashed gray;
     padding: 15px;
 }
+.FancyBorder{
+    border: 1px red dotted;
+}
